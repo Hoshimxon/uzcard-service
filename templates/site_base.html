@@ -1,0 +1,38 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>{% block title %} Test {% endblock %}</title>
+
+  {% block styles %}
+
+  {% endblock %}
+
+  {% block extrahead %}
+
+  {% endblock %}
+</head>
+
+<body>
+{% block body %}
+  <div class="wrap">
+    {% block header %}{% include "components/header.html" %}{% endblock %}
+    {% block page_content %}{% endblock %}
+  </div>
+  <footer>
+    {% block footer %}{% include "components/footer.html" %}{% endblock %}
+  </footer>
+{% endblock %}
+
+{% block scripts %}
+
+{% endblock %}
+
+{% block page_scripts %}
+
+{% endblock %}
+
+</body>
+</html>

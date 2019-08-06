@@ -1,0 +1,8 @@
+Django==2.2.3
+django-active-link==0.1.6
+django-cogwheels==0.2
+django-menu==0.1.13
+django-modeltranslation==0.13.2
+django-summernote==0.8.11.4
+pytz==2019.1
+sqlparse==0.3.0
