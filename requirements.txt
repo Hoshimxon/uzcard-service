@@ -5,4 +5,4 @@ django-menu==0.1.13
 django-modeltranslation==0.13.2
 django-summernote==0.8.11.4
 pytz==2019.1
-sqlparse==0.3.0
+sqlparse==0.4.4
